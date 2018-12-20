@@ -21,9 +21,9 @@
 		"coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
 	},
 	"dependencies": {
-		"cachebust": "2.0.1",
+		"cachebust": "^2.4.0",
 		"graceful-fs": "^3.0.4",
-		"gulp-util": "3.0.1",
+		"gulp-util": "3.0.8",
 		"map-stream": "0.0.5",
 		"temp-write": "^1.1.0",
 		"through2": "0.6.3"
